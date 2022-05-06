@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
     int n,s=0,p=1,d;
@@ -12,8 +11,10 @@ int main()
         n=n/10;
     }
     if(s==p)
-        printf("Spy Number");
+    printf("Spy Number
+");
     else
-        printf("Not Spy Number");
-return 0;
+    printf("Not Spy Number
+");
+    return 0;
 }
